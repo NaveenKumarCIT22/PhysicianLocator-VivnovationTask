@@ -1,0 +1,1907 @@
+[
+  {
+    "created_epoch": "1283964451000",
+    "enumeration_type": "NPI-2",
+    "last_updated_epoch": "1283964451000",
+    "number": "1255648556",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "P.O. BOX 4145",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "00740",
+        "telephone_number": "787-810-7540",
+        "fax_number": "787-626-5473"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "URB. SABANERA CAMINO DE LAS TORTOLAS",
+        "address_2": "#36",
+        "city": "DORADO",
+        "state": "PR",
+        "postal_code": "00646",
+        "telephone_number": "787-810-7540",
+        "fax_number": "787-626-5473"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "organization_name": "ARRAUT MEDICAL CENTER PSC",
+      "organizational_subpart": "NO",
+      "enumeration_date": "2010-09-08",
+      "last_updated": "2010-09-08",
+      "status": "A",
+      "authorized_official_first_name": "HARLEY",
+      "authorized_official_last_name": "ARRAUT",
+      "authorized_official_telephone_number": "7878107515",
+      "authorized_official_title_or_position": "Presidente",
+      "authorized_official_name_prefix": "Mr.",
+      "authorized_official_name_suffix": "--",
+      "authorized_official_credential": "M.D."
+    },
+    "taxonomies": [
+      {
+        "code": "207Q00000X",
+        "taxonomy_group": "193400000X - Single Specialty Group",
+        "desc": "Family Medicine",
+        "state": null,
+        "license": null,
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1149331074000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1542122376000",
+    "number": "1922046838",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "L2 CALLE 6",
+        "city": "RIO GRANDE",
+        "state": "PR",
+        "postal_code": "007452825",
+        "telephone_number": "787-888-8886",
+        "fax_number": "787-888-8887"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 4145",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007404145",
+        "telephone_number": "787-810-7515"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "HARLEY",
+      "last_name": "ARRAUT RAMIREZ",
+      "credential": "M.D.",
+      "sole_proprietor": "NO",
+      "gender": "M",
+      "enumeration_date": "2006-06-03",
+      "last_updated": "2018-11-13",
+      "status": "A"
+    },
+    "taxonomies": [
+      {
+        "code": "207Q00000X",
+        "taxonomy_group": "",
+        "desc": "Family Medicine",
+        "state": "PR",
+        "license": "12271",
+        "primary": false
+      },
+      {
+        "code": "208D00000X",
+        "taxonomy_group": "",
+        "desc": "General Practice",
+        "state": "PR",
+        "license": "12271",
+        "primary": false
+      },
+      {
+        "code": "207P00000X",
+        "taxonomy_group": "",
+        "desc": "Emergency Medicine",
+        "state": "PR",
+        "license": "12271",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1178824668000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1183947785000",
+    "number": "1922212521",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 685",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400685",
+        "telephone_number": "787-435-3616"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "URB. LOS PAISAJES B-6 CALLE CAMINO DEL YUNQUE",
+        "city": "LUQUILLO",
+        "state": "PR",
+        "postal_code": "00773",
+        "telephone_number": "787-889-0962"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "KAREEN",
+      "last_name": "CARDONA-VICENTE",
+      "middle_name": "ANALISSE",
+      "credential": "M.D.",
+      "sole_proprietor": "YES",
+      "gender": "F",
+      "enumeration_date": "2007-05-10",
+      "last_updated": "2007-07-08",
+      "status": "A",
+      "name_prefix": "Dr.",
+      "name_suffix": "--"
+    },
+    "taxonomies": [
+      {
+        "code": "208D00000X",
+        "taxonomy_group": "",
+        "desc": "General Practice",
+        "state": "PR",
+        "license": "12135",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1172004558000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1183947785000",
+    "number": "1871638734",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 402",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400402"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "MUNOZ RIVERA ST.206",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "00738",
+        "telephone_number": "787-863-0810"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "ELIZABETH",
+      "last_name": "CARRILLO",
+      "sole_proprietor": "NO",
+      "gender": "F",
+      "enumeration_date": "2007-02-20",
+      "last_updated": "2007-07-08",
+      "status": "A",
+      "name_prefix": "Mrs.",
+      "name_suffix": "--"
+    },
+    "taxonomies": [
+      {
+        "code": "183700000X",
+        "taxonomy_group": "",
+        "desc": "Pharmacy Technician",
+        "state": "PR",
+        "license": "5570",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1173389593000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1183947785000",
+    "number": "1548391618",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 4235",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "00740",
+        "telephone_number": "787-889-3453",
+        "fax_number": "787-889-3453"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "CALLE FERNANDEZ GARCIA",
+        "address_2": "NUM 306",
+        "city": "LUQUILLO",
+        "state": "PR",
+        "postal_code": "00773",
+        "telephone_number": "787-889-3453",
+        "fax_number": "787-889-3453"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "NARCISO",
+      "last_name": "CARRILLO",
+      "middle_name": "REYES",
+      "credential": "M.D",
+      "sole_proprietor": "YES",
+      "gender": "M",
+      "enumeration_date": "2007-03-08",
+      "last_updated": "2007-07-08",
+      "status": "A",
+      "name_prefix": "Dr.",
+      "name_suffix": "--"
+    },
+    "taxonomies": [
+      {
+        "code": "261QM2500X",
+        "taxonomy_group": "",
+        "desc": "Clinic/Center, Medical Specialty",
+        "state": "PR",
+        "license": "10968",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1177340812000",
+    "enumeration_type": "NPI-2",
+    "last_updated_epoch": "1598100723000",
+    "number": "1093933434",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "P O BOX 4186",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007404186",
+        "telephone_number": "787-801-0000",
+        "fax_number": "787-860-7105"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "TORRE SAN PABLO SUITE 303",
+        "address_2": "AVENIDA GENERAL VALERO 410",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "00738",
+        "telephone_number": "787-801-0000"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "organization_name": "CENTRO DE HEMATOLOGIA Y ONCOLOGIA DEL ESTE",
+      "organizational_subpart": "NO",
+      "enumeration_date": "2007-04-23",
+      "last_updated": "2020-08-22",
+      "status": "A",
+      "authorized_official_first_name": "LUZ",
+      "authorized_official_last_name": "CORTES",
+      "authorized_official_middle_name": "N",
+      "authorized_official_telephone_number": "7878010000",
+      "authorized_official_title_or_position": "DOCTORA",
+      "authorized_official_name_prefix": "Mrs.",
+      "authorized_official_name_suffix": "--",
+      "authorized_official_credential": "M.D."
+    },
+    "taxonomies": [
+      {
+        "code": "261QX0200X",
+        "taxonomy_group": "",
+        "desc": "Clinic/Center, Oncology",
+        "state": null,
+        "license": null,
+        "primary": true
+      }
+    ],
+    "identifiers": [
+      {
+        "code": "01",
+        "desc": "Other (non-Medicare)",
+        "issuer": "Triple SSS",
+        "identifier": "12010",
+        "state": "PR"
+      }
+    ],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1143659351000",
+    "enumeration_type": "NPI-2",
+    "last_updated_epoch": "1486339527000",
+    "number": "1093776130",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 4186",
+        "address_2": "PUERTO REAL",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007404186",
+        "telephone_number": "787-801-0000",
+        "fax_number": "787-860-7105"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "410 AVE GENERAL VALERO",
+        "address_2": "TORRE MEDICA HIMA, SUITE 303",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "007383949",
+        "telephone_number": "787-801-0000",
+        "fax_number": "787-860-7105"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "organization_name": "CENTRO DE HEMATOLOGIA Y ONCOLOGIA DEL ESTE CSP",
+      "organizational_subpart": "NO",
+      "enumeration_date": "2006-03-29",
+      "last_updated": "2017-02-05",
+      "status": "A",
+      "authorized_official_first_name": "LUZ",
+      "authorized_official_last_name": "CORTES MORALES",
+      "authorized_official_middle_name": "NILSA",
+      "authorized_official_telephone_number": "7878010000",
+      "authorized_official_title_or_position": "PRESIDENT",
+      "authorized_official_name_prefix": "--",
+      "authorized_official_name_suffix": "--",
+      "authorized_official_credential": "MD"
+    },
+    "taxonomies": [
+      {
+        "code": "261QX0200X",
+        "taxonomy_group": "",
+        "desc": "Clinic/Center, Oncology",
+        "state": "PR",
+        "license": "12895",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1216215348000",
+    "enumeration_type": "NPI-2",
+    "last_updated_epoch": "1407337958000",
+    "number": "1285898502",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "151 AVE OSVALDO MOLINA",
+        "address_2": "SUITE 103",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "007384013",
+        "telephone_number": "787-801-0081"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 458",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400458",
+        "telephone_number": "787-801-0081"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "organization_name": "CENTRO GERIATRICO DEL ESTE PSC",
+      "organizational_subpart": "NO",
+      "enumeration_date": "2008-07-16",
+      "last_updated": "2014-08-06",
+      "status": "A",
+      "authorized_official_first_name": "CARLOS",
+      "authorized_official_last_name": "FONTANEZ, MD",
+      "authorized_official_middle_name": "A",
+      "authorized_official_telephone_number": "7873404125",
+      "authorized_official_title_or_position": "medico",
+      "authorized_official_name_prefix": "Dr.",
+      "authorized_official_name_suffix": "Sr.",
+      "authorized_official_credential": "16110"
+    },
+    "taxonomies": [
+      {
+        "code": "207RG0300X",
+        "taxonomy_group": "193400000X - Single Specialty Group",
+        "desc": "Internal Medicine, Geriatric Medicine",
+        "state": "PR",
+        "license": "5177",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1180014293000",
+    "enumeration_type": "NPI-2",
+    "last_updated_epoch": "1598100723000",
+    "number": "1194936203",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 776",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "00740",
+        "telephone_number": "787-860-1166",
+        "fax_number": "787-860-1166"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "AVE. CONQUISTADOR A45, MONTE BRISAS",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "00738",
+        "telephone_number": "787-860-1166",
+        "fax_number": "787-860-1166"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "organization_name": "CENTRO INTEGRAL DE MEDICINA",
+      "organizational_subpart": "NO",
+      "enumeration_date": "2007-05-24",
+      "last_updated": "2020-08-22",
+      "status": "A",
+      "authorized_official_first_name": "CARMEN",
+      "authorized_official_last_name": "AYALA",
+      "authorized_official_middle_name": "A",
+      "authorized_official_telephone_number": "7878601166",
+      "authorized_official_title_or_position": "Administrador",
+      "authorized_official_name_prefix": "Mrs.",
+      "authorized_official_name_suffix": "--"
+    },
+    "taxonomies": [
+      {
+        "code": "261QP2300X",
+        "taxonomy_group": "",
+        "desc": "Clinic/Center, Primary Care",
+        "state": null,
+        "license": null,
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": [
+      { "organization_name": "CIM", "type": "Doing Business As", "code": "3" }
+    ]
+  },
+  {
+    "created_epoch": "1143660318000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1485733472000",
+    "number": "1205897352",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 4186",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007404186",
+        "telephone_number": "787-801-0000",
+        "fax_number": "787-860-7105"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "410 AVE GENERAL VALERO",
+        "address_2": "TORRE MEDICA HIMA, SUITE 303",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "007383949",
+        "telephone_number": "787-801-0000",
+        "fax_number": "787-860-7105"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "LUZ",
+      "last_name": "CORTES",
+      "middle_name": "NILSA",
+      "credential": "MD",
+      "sole_proprietor": "YES",
+      "gender": "F",
+      "enumeration_date": "2006-03-29",
+      "last_updated": "2017-01-29",
+      "status": "A",
+      "name_prefix": "--",
+      "name_suffix": "--"
+    },
+    "taxonomies": [
+      {
+        "code": "207R00000X",
+        "taxonomy_group": "",
+        "desc": "Internal Medicine",
+        "state": "PR",
+        "license": "12895",
+        "primary": false
+      },
+      {
+        "code": "207RH0003X",
+        "taxonomy_group": "",
+        "desc": "Internal Medicine, Hematology & Oncology",
+        "state": "PR",
+        "license": "12895",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": [
+      {
+        "type": "Other Name",
+        "code": "5",
+        "credential": "MD",
+        "first_name": "LUZ",
+        "last_name": "CORTES MORALES",
+        "middle_name": "NILSA"
+      }
+    ]
+  },
+  {
+    "created_epoch": "1697742253000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1697742253000",
+    "number": "1467234880",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 4012",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007404012",
+        "telephone_number": "787-909-1674"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "997 CALLE SAN ROBERTO",
+        "city": "SAN JUAN",
+        "state": "PR",
+        "postal_code": "009262759",
+        "telephone_number": "787-773-6508",
+        "fax_number": "787-773-6544"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "JOYCE",
+      "last_name": "CRUZ BATISTA",
+      "middle_name": "MARIE",
+      "sole_proprietor": "YES",
+      "gender": "F",
+      "enumeration_date": "2023-10-19",
+      "last_updated": "2023-10-19",
+      "certification_date": "2023-10-19",
+      "status": "A"
+    },
+    "taxonomies": [
+      {
+        "code": "390200000X",
+        "taxonomy_group": "",
+        "desc": "Student in an Organized Health Care Education/Training Program",
+        "state": "FL",
+        "license": "46065",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1173280283000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1183947785000",
+    "number": "1225168388",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 271",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "00740",
+        "telephone_number": "787-863-0610",
+        "fax_number": "787-863-5207"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "CALLE MUNOZ RIVERA #2",
+        "address_2": "FARMACIA EMANUELLE INC",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "007380925",
+        "telephone_number": "787-863-0610",
+        "fax_number": "787-863-5207"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "MARIA",
+      "last_name": "DELGADO",
+      "middle_name": "J",
+      "sole_proprietor": "NO",
+      "gender": "F",
+      "enumeration_date": "2007-03-07",
+      "last_updated": "2007-07-08",
+      "status": "A",
+      "name_prefix": "Mrs.",
+      "name_suffix": "--"
+    },
+    "taxonomies": [
+      {
+        "code": "183700000X",
+        "taxonomy_group": "",
+        "desc": "Pharmacy Technician",
+        "state": "PR",
+        "license": "1591",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1192563271000",
+    "enumeration_type": "NPI-2",
+    "last_updated_epoch": "1192563271000",
+    "number": "1396934303",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 25",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400025"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "GARRIDO MORALES ESQ SAN RAFAEL #12",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "00738",
+        "telephone_number": "787-447-7670"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "organization_name": "DOLORES ANN MC CLURG",
+      "organizational_subpart": "NO",
+      "enumeration_date": "2007-10-16",
+      "last_updated": "2007-10-16",
+      "status": "A",
+      "authorized_official_first_name": "DOLORES",
+      "authorized_official_last_name": "MC CLURG",
+      "authorized_official_middle_name": "ANN",
+      "authorized_official_telephone_number": "7874477670",
+      "authorized_official_title_or_position": "Owner",
+      "authorized_official_name_prefix": "Ms.",
+      "authorized_official_name_suffix": "--",
+      "authorized_official_credential": "BHS, EMT-P"
+    },
+    "taxonomies": [
+      {
+        "code": "3416L0300X",
+        "taxonomy_group": "",
+        "desc": "Ambulance, Land Transport",
+        "state": null,
+        "license": null,
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": [
+      {
+        "organization_name": "GLOBAL PREHOSPITAL RESPONSE",
+        "type": "Doing Business As",
+        "code": "3"
+      }
+    ]
+  },
+  {
+    "created_epoch": "1165967633000",
+    "enumeration_type": "NPI-2",
+    "last_updated_epoch": "1316612540000",
+    "number": "1295896587",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 490",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "00740",
+        "telephone_number": "787-860-3400",
+        "fax_number": "787-863-2075"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "AVE AGUSTIN PEREZ ANDINO B-30",
+        "address_2": "VILLAS DE RIO GRANDE",
+        "city": "RIO GRANDE",
+        "state": "PR",
+        "postal_code": "00745",
+        "telephone_number": "787-887-5944",
+        "fax_number": "787-887-7917"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "organization_name": "FAJARDO IMAGING MRI CSP",
+      "organizational_subpart": "NO",
+      "enumeration_date": "2006-12-12",
+      "last_updated": "2011-09-21",
+      "status": "A",
+      "authorized_official_first_name": "DIANA",
+      "authorized_official_last_name": "GARCIA",
+      "authorized_official_middle_name": "FERNADEZ",
+      "authorized_official_telephone_number": "7878603400",
+      "authorized_official_title_or_position": "RADIOLOGIST",
+      "authorized_official_name_prefix": "Dr.",
+      "authorized_official_name_suffix": "--",
+      "authorized_official_credential": "M.D."
+    },
+    "taxonomies": [
+      {
+        "code": "261QR0206X",
+        "taxonomy_group": "",
+        "desc": "Clinic/Center, Radiology, Mammography",
+        "state": "PR",
+        "license": "5767",
+        "primary": true
+      }
+    ],
+    "identifiers": [
+      {
+        "code": "01",
+        "desc": "Other (non-Medicare)",
+        "issuer": "EIN",
+        "identifier": "=========",
+        "state": "PR"
+      }
+    ],
+    "endpoints": [],
+    "other_names": [
+      {
+        "organization_name": "FAJARDO IMAGING MRI CSP",
+        "type": "Former Legal Business Name",
+        "code": "4"
+      }
+    ]
+  },
+  {
+    "created_epoch": "1125426113000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1709045177000",
+    "number": "1639162191",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 490",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400490",
+        "telephone_number": "787-860-3400",
+        "fax_number": "787-863-2075"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "316 AVE GEN VALERO",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "007384848",
+        "telephone_number": "787-860-3400",
+        "fax_number": "787-863-2075"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "DIANA",
+      "last_name": "FERNANDEZ GARCIA",
+      "credential": "MD",
+      "sole_proprietor": "YES",
+      "gender": "F",
+      "enumeration_date": "2005-08-30",
+      "last_updated": "2024-02-27",
+      "certification_date": "2024-02-27",
+      "status": "A",
+      "name_prefix": "--",
+      "name_suffix": "--"
+    },
+    "taxonomies": [
+      {
+        "code": "2085B0100X",
+        "taxonomy_group": "",
+        "desc": "Radiology, Body Imaging",
+        "state": "PR",
+        "license": "5767",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1163605769000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1280769356000",
+    "number": "1255403010",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "AVE OSVALDO MOLINA #151",
+        "address_2": "SUITE 103",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "007383614",
+        "telephone_number": "787-801-0081"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 458",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400458"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "CARLOS",
+      "last_name": "FONTANEZ",
+      "middle_name": "AGAPITO",
+      "credential": "M.D.",
+      "sole_proprietor": "YES",
+      "gender": "M",
+      "enumeration_date": "2006-11-15",
+      "last_updated": "2010-08-02",
+      "status": "A",
+      "name_prefix": "--",
+      "name_suffix": "--"
+    },
+    "taxonomies": [
+      {
+        "code": "207R00000X",
+        "taxonomy_group": "",
+        "desc": "Internal Medicine",
+        "state": "PR",
+        "license": "16110",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1120749863000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1183947785000",
+    "number": "1164429049",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 24",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400024",
+        "telephone_number": "787-768-2172"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "AVE MONSERRATE",
+        "city": "CAROLINA",
+        "state": "PR",
+        "postal_code": "009855444",
+        "telephone_number": "787-768-2172"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "LAURA",
+      "last_name": "GUZMAN",
+      "middle_name": "S.",
+      "credential": "DMD",
+      "sole_proprietor": "NO",
+      "gender": "F",
+      "enumeration_date": "2005-07-07",
+      "last_updated": "2007-07-08",
+      "status": "A",
+      "name_prefix": "Dr.",
+      "name_suffix": "--"
+    },
+    "taxonomies": [
+      {
+        "code": "1223G0001X",
+        "taxonomy_group": "",
+        "desc": "Dentist, General Practice",
+        "state": "PR",
+        "license": "1461",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1414461401000",
+    "enumeration_type": "NPI-2",
+    "last_updated_epoch": "1414461401000",
+    "number": "1962807453",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 4145",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007404145",
+        "telephone_number": "787-478-2336"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "222 AVE B",
+        "address_2": "SANTA ISIDRA I",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "007384978",
+        "telephone_number": "787-478-2336"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "organization_name": "HA MEDICAL SERVICES PSC",
+      "organizational_subpart": "NO",
+      "enumeration_date": "2014-10-27",
+      "last_updated": "2014-10-27",
+      "status": "A",
+      "authorized_official_first_name": "HARLEY",
+      "authorized_official_last_name": "ARRAUT",
+      "authorized_official_telephone_number": "7878107515",
+      "authorized_official_title_or_position": "President",
+      "authorized_official_name_prefix": "Mr.",
+      "authorized_official_name_suffix": "--",
+      "authorized_official_credential": "M.D."
+    },
+    "taxonomies": [
+      {
+        "code": "174400000X",
+        "taxonomy_group": "193200000X - Multi-Specialty Group",
+        "desc": "Specialist",
+        "state": null,
+        "license": null,
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1138639335000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1668137294000",
+    "number": "1952372880",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "10 CALLE UNION",
+        "address_2": "FAJARDO MEDICAL PLAZA SUITE 103",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "007384935",
+        "telephone_number": "787-863-4886",
+        "fax_number": "787-860-5144"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 228",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400228",
+        "telephone_number": "787-863-4886",
+        "fax_number": "787-860-5144"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "YOLANDA",
+      "last_name": "MAS DE LEON",
+      "credential": "M.D.",
+      "sole_proprietor": "NO",
+      "gender": "F",
+      "enumeration_date": "2006-01-30",
+      "last_updated": "2022-11-10",
+      "certification_date": "2022-11-10",
+      "status": "A"
+    },
+    "taxonomies": [
+      {
+        "code": "207R00000X",
+        "taxonomy_group": "",
+        "desc": "Internal Medicine",
+        "state": "PR",
+        "license": "6491",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1179491183000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1223307032000",
+    "number": "1588872378",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 25",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400025",
+        "telephone_number": "787-447-7670",
+        "fax_number": "787-860-4200"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "12 ALTOS GARRIDO MORALES ESQ. SAN RAFAEL",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "007380000",
+        "telephone_number": "787-447-7670",
+        "fax_number": "787-860-4200"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "DOLORES",
+      "last_name": "MC CLURG SANTIAGO",
+      "middle_name": "ANN",
+      "credential": "0749P",
+      "sole_proprietor": "YES",
+      "gender": "F",
+      "enumeration_date": "2007-05-18",
+      "last_updated": "2008-10-06",
+      "status": "A",
+      "name_prefix": "--",
+      "name_suffix": "--"
+    },
+    "taxonomies": [
+      {
+        "code": "146L00000X",
+        "taxonomy_group": "",
+        "desc": "Emergency Medical Technician, Paramedic",
+        "state": "PR",
+        "license": "0749P",
+        "primary": false
+      },
+      {
+        "code": "3416L0300X",
+        "taxonomy_group": "",
+        "desc": "Ambulance, Land Transport",
+        "state": "PR",
+        "license": "TCAMB521",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": [
+      {
+        "type": "Professional Name",
+        "code": "2",
+        "first_name": "GLOBAL",
+        "last_name": "RESPONSE",
+        "middle_name": "PREHOSPITAL",
+        "prefix": "--",
+        "suffix": "--"
+      }
+    ]
+  },
+  {
+    "created_epoch": "1234968996000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1234968996000",
+    "number": "1326287186",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 484",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400484",
+        "telephone_number": "787-209-8888",
+        "fax_number": "787-270-1081"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "CONDOMINIO LA LOMA",
+        "address_2": "N-304",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "00738",
+        "telephone_number": "787-209-8888",
+        "fax_number": "787-270-1081"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "EDWIN",
+      "last_name": "MORALES",
+      "middle_name": "DAVIS",
+      "credential": "M.D.",
+      "sole_proprietor": "YES",
+      "gender": "M",
+      "enumeration_date": "2009-02-18",
+      "last_updated": "2009-02-18",
+      "status": "A",
+      "name_prefix": "Dr.",
+      "name_suffix": "--"
+    },
+    "taxonomies": [
+      {
+        "code": "207P00000X",
+        "taxonomy_group": "",
+        "desc": "Emergency Medicine",
+        "state": "PR",
+        "license": "7961",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1652214454000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1706634439000",
+    "number": "1669118881",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "HOSPITAL DEL MAESTRO #550 CALLE SERGIO CUEVAS BUSTAMANT",
+        "address_2": "ESQ.AVE DOMENECH",
+        "city": "SAN JUAN",
+        "state": "PR",
+        "postal_code": "00918",
+        "telephone_number": "787-758-8383"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 33",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400033",
+        "telephone_number": "787-685-7700",
+        "fax_number": "787-863-5338"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "SOL",
+      "last_name": "MORALES",
+      "middle_name": "IDAMARIS",
+      "credential": "MD",
+      "sole_proprietor": "YES",
+      "gender": "F",
+      "enumeration_date": "2022-05-10",
+      "last_updated": "2024-01-30",
+      "certification_date": "2024-01-30",
+      "status": "A",
+      "name_prefix": "Dr."
+    },
+    "taxonomies": [
+      {
+        "code": "390200000X",
+        "taxonomy_group": "",
+        "desc": "Student in an Organized Health Care Education/Training Program",
+        "state": "PR",
+        "license": null,
+        "primary": false
+      },
+      {
+        "code": "208D00000X",
+        "taxonomy_group": "",
+        "desc": "General Practice",
+        "state": "PR",
+        "license": "023594",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1150829714000",
+    "enumeration_type": "NPI-2",
+    "last_updated_epoch": "1598100723000",
+    "number": "1215973243",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 81",
+        "city": "PTO REAL",
+        "state": "PR",
+        "postal_code": "00740",
+        "telephone_number": "787-863-0931",
+        "fax_number": "787-860-5931"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "CONQUISTADOR AVE",
+        "address_2": "#B-1 SUITE #2",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "00738",
+        "telephone_number": "787-863-0931",
+        "fax_number": "787-860-5931"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "organization_name": "MULTIMED HOME CARE SUPPLY",
+      "organizational_subpart": "NO",
+      "enumeration_date": "2006-06-20",
+      "last_updated": "2020-08-22",
+      "status": "A",
+      "authorized_official_first_name": "EDMA",
+      "authorized_official_last_name": "MELENDEZ",
+      "authorized_official_telephone_number": "7878630931",
+      "authorized_official_title_or_position": "President",
+      "authorized_official_name_prefix": "Ms.",
+      "authorized_official_name_suffix": "--",
+      "authorized_official_credential": "MS CMF CDF"
+    },
+    "taxonomies": [
+      {
+        "code": "332B00000X",
+        "taxonomy_group": "",
+        "desc": "Durable Medical Equipment & Medical Supplies",
+        "state": null,
+        "license": null,
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1154561732000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1183957886000",
+    "number": "1487661146",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 640",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400640",
+        "telephone_number": "787-763-8932",
+        "fax_number": "787-763-8533"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "562 CALLE JUAN J JIMENEZ",
+        "city": "SAN JUAN",
+        "state": "PR",
+        "postal_code": "009183722",
+        "telephone_number": "787-763-8932",
+        "fax_number": "787-763-8533"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "MARTIN",
+      "last_name": "ORTIZ",
+      "credential": "MD",
+      "sole_proprietor": "YES",
+      "gender": "M",
+      "enumeration_date": "2006-08-02",
+      "last_updated": "2007-07-09",
+      "status": "A",
+      "name_prefix": "Dr.",
+      "name_suffix": "--"
+    },
+    "taxonomies": [
+      {
+        "code": "174400000X",
+        "taxonomy_group": "",
+        "desc": "Specialist",
+        "state": "PR",
+        "license": "5348",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1159804888000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1183947785000",
+    "number": "1942393020",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 445",
+        "city": "PUERO REAL",
+        "state": "PR",
+        "postal_code": "007400445",
+        "telephone_number": "787-860-1717",
+        "fax_number": "787-285-4319"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "URH MONTE BNSAS CALLE H A50",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "00738",
+        "telephone_number": "787-860-1717",
+        "fax_number": "787-285-4319"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "ELENA",
+      "last_name": "RAMOS",
+      "middle_name": "M",
+      "credential": "DMD",
+      "sole_proprietor": "NO",
+      "gender": "F",
+      "enumeration_date": "2006-10-02",
+      "last_updated": "2007-07-08",
+      "status": "A",
+      "name_prefix": "Dr.",
+      "name_suffix": "--"
+    },
+    "taxonomies": [
+      {
+        "code": "1223G0001X",
+        "taxonomy_group": "",
+        "desc": "Dentist, General Practice",
+        "state": "PR",
+        "license": "1805",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1295376943000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1734205706000",
+    "number": "1538464854",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "BO. EL VERDE, SECTOR BELLA VISTA FINAL",
+        "city": "RIO GRANDE",
+        "state": "PR",
+        "postal_code": "00745",
+        "telephone_number": "787-644-8814"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 719",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400719",
+        "telephone_number": "787-644-8814"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "CARMEN",
+      "last_name": "RESTO",
+      "middle_name": "HAYDEE",
+      "credential": "SLP",
+      "sole_proprietor": "YES",
+      "gender": "F",
+      "enumeration_date": "2011-01-18",
+      "last_updated": "2024-12-14",
+      "certification_date": "2024-12-14",
+      "status": "A"
+    },
+    "taxonomies": [
+      {
+        "code": "235Z00000X",
+        "taxonomy_group": "",
+        "desc": "Speech-Language Pathologist,  ",
+        "state": "PR",
+        "license": "809",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1320268776000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1630676175000",
+    "number": "1609152701",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 490",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400490",
+        "telephone_number": "787-860-3400"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "316 AVE GENERAL VALERO",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "007384848",
+        "telephone_number": "787-860-3400"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "RICARDO",
+      "last_name": "RIVERA FERNANDEZ",
+      "middle_name": "RENE",
+      "credential": "M.D.",
+      "sole_proprietor": "NO",
+      "gender": "M",
+      "enumeration_date": "2011-11-02",
+      "last_updated": "2021-09-03",
+      "certification_date": "2021-09-03",
+      "status": "A",
+      "name_prefix": "Dr."
+    },
+    "taxonomies": [
+      {
+        "code": "2085R0202X",
+        "taxonomy_group": "",
+        "desc": "Radiology, Diagnostic Radiology",
+        "state": "PR",
+        "license": "18880",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1697742557000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1697742557000",
+    "number": "1457133878",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "997 CALLE SAN ROBERTO",
+        "city": "SAN JUAN",
+        "state": "PR",
+        "postal_code": "009262759",
+        "telephone_number": "939-579-6327"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 4012",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007404012",
+        "telephone_number": "939-579-6327"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "MARYLYS",
+      "last_name": "RIVERA FLORES",
+      "sole_proprietor": "YES",
+      "gender": "F",
+      "enumeration_date": "2023-10-19",
+      "last_updated": "2023-10-19",
+      "certification_date": "2023-10-19",
+      "status": "A"
+    },
+    "taxonomies": [
+      {
+        "code": "390200000X",
+        "taxonomy_group": "",
+        "desc": "Student in an Organized Health Care Education/Training Program",
+        "state": "FL",
+        "license": "46172",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1119550242000",
+    "enumeration_type": "NPI-1",
+    "last_updated_epoch": "1183947785000",
+    "number": "1952307936",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 24",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400024",
+        "telephone_number": "787-860-3465"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "301 AVE GEN VALERO",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "007384844",
+        "telephone_number": "787-860-3465"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "first_name": "RAMON",
+      "last_name": "RIVERA",
+      "middle_name": "D.",
+      "credential": "DMD",
+      "sole_proprietor": "NO",
+      "gender": "M",
+      "enumeration_date": "2005-06-23",
+      "last_updated": "2007-07-08",
+      "status": "A",
+      "name_prefix": "Dr.",
+      "name_suffix": "--"
+    },
+    "taxonomies": [
+      {
+        "code": "1223G0001X",
+        "taxonomy_group": "",
+        "desc": "Dentist, General Practice",
+        "state": "PR",
+        "license": "1439",
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1720201803000",
+    "enumeration_type": "NPI-2",
+    "last_updated_epoch": "1720201803000",
+    "number": "1083450365",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 33",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400033"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "URB. EL BATEY CALLE 2 NUM. 7",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "00738",
+        "telephone_number": "787-685-7700"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "organization_name": "SUNRISE MEDICAL SERVICES LLC",
+      "organizational_subpart": "NO",
+      "enumeration_date": "2024-07-05",
+      "last_updated": "2024-07-05",
+      "certification_date": "2024-06-27",
+      "status": "A",
+      "authorized_official_first_name": "SOL",
+      "authorized_official_last_name": "MORALES GONZALEZ",
+      "authorized_official_middle_name": "I",
+      "authorized_official_telephone_number": "7876857700",
+      "authorized_official_title_or_position": "PRESIDENT",
+      "authorized_official_credential": "MD"
+    },
+    "taxonomies": [
+      {
+        "code": "208D00000X",
+        "taxonomy_group": "193200000X - Multi-Specialty Group",
+        "desc": "General Practice",
+        "state": null,
+        "license": null,
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  },
+  {
+    "created_epoch": "1321307870000",
+    "enumeration_type": "NPI-2",
+    "last_updated_epoch": "1321307870000",
+    "number": "1225315575",
+    "addresses": [
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "MAILING",
+        "address_type": "DOM",
+        "address_1": "PO BOX 46",
+        "address_2": "PUERTO REAL",
+        "city": "PUERTO REAL",
+        "state": "PR",
+        "postal_code": "007400046",
+        "telephone_number": "787-860-0965",
+        "fax_number": "787-860-2169"
+      },
+      {
+        "country_code": "US",
+        "country_name": "United States",
+        "address_purpose": "LOCATION",
+        "address_type": "DOM",
+        "address_1": "CARIBBEAN MEDICAL CENTER AVE. OSVALDO MOLINA",
+        "address_2": "SUITE 102",
+        "city": "FAJARDO",
+        "state": "PR",
+        "postal_code": "00738",
+        "telephone_number": "787-860-0965",
+        "fax_number": "787-860-2169"
+      }
+    ],
+    "practiceLocations": [],
+    "basic": {
+      "organization_name": "VICTAN OB. GROUP, CORP",
+      "organizational_subpart": "NO",
+      "enumeration_date": "2011-11-14",
+      "last_updated": "2011-11-14",
+      "status": "A",
+      "authorized_official_first_name": "JOSE",
+      "authorized_official_last_name": "CINTRON",
+      "authorized_official_middle_name": "LUIS",
+      "authorized_official_telephone_number": "7878600965",
+      "authorized_official_title_or_position": "PRECIDENT",
+      "authorized_official_name_prefix": "Dr.",
+      "authorized_official_name_suffix": "--",
+      "authorized_official_credential": "M.D."
+    },
+    "taxonomies": [
+      {
+        "code": "207V00000X",
+        "taxonomy_group": "193200000X - Multi-Specialty Group",
+        "desc": "Obstetrics & Gynecology",
+        "state": null,
+        "license": null,
+        "primary": true
+      }
+    ],
+    "identifiers": [],
+    "endpoints": [],
+    "other_names": []
+  }
+]
