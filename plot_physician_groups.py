@@ -13,6 +13,15 @@ logger = setup_logger('plot_physician_groups_logger',
 def geocode_address(address, max_retries=3, initial_delay=1, provider='nominatim'):
     """
     Geocodes an address and returns the location using geopandas with retry logic.
+
+    Args:
+        address (str): The address to geocode.
+        max_retries (int): Maximum number of retries.
+        initial_delay (int): Initial delay in seconds between retries.
+
+    Returns:
+        tuple: A tuple containing (longitude, latitude) if geocoding is successful,
+               None otherwise.
     """
     for attempt in range(max_retries):
         try:
@@ -22,22 +31,40 @@ def geocode_address(address, max_retries=3, initial_delay=1, provider='nominatim
                 if not locs.geometry.iloc[0].is_empty:
                     return locs.geometry.iloc[0].x, locs.geometry.iloc[0].y
                 else:
+                    print(
+                        f"Geocoding failed for {address[:10]}... - Empty geometry")
                     return None
             else:
+                print(f"Geocoding failed for {address[10:]}...")
                 return None
         except (GeocoderTimedOut, GeocoderServiceError, MaxRetryError, NewConnectionError) as e:
             logger.error(f"Geocoding error for {address}: {e}")
+            print(f"Geocoding error for {address}: {e}")
         except Exception as e:
             logger.error(f"Geocoding error for {address}: {e}")
+            print(f"Geocoding error for {address}: {e}")
         if attempt < max_retries - 1:
             delay = initial_delay * (2 ** attempt)
+            print(f"Retrying in {delay} seconds...")
             time.sleep(delay)
     return None
 
 
 def extract_data_from_list(data_list):
     """
-    Extracts data from a list of dictionaries, geocodes addresses, and returns a Pandas DataFrame.
+    Extracts data from a list of dictionaries, geocodes addresses, and
+returns a Pandas DataFrame.
+
+    Args:
+        data_list (list): A list of dictionaries, where each dictionary
+                           contains physician/group information.  Each dict
+                           should have keys like 'address', 'full_name',
+                           'organization_name', and 'specialties'.
+
+    Returns:
+        pandas.DataFrame: A DataFrame containing the extracted and geocoded data.
+                          Returns an empty DataFrame if the input list is empty
+                          or if geocoding fails for all entries.
     """
     records = []
     if not data_list:
@@ -51,10 +78,12 @@ def extract_data_from_list(data_list):
         name = organization_name if organization_name else full_name
 
         if not address:
+            print("Missing address. Skipping record.")
             continue
 
         coordinates = geocode_address(address, provider='arcgis')
         if not coordinates:
+            print(f"Geocoding failed for {address}. Skipping record.")
             continue
 
         records.append({
@@ -65,15 +94,25 @@ def extract_data_from_list(data_list):
             "Longitude": coordinates[0]
         })
 
+    if not records:
+        print("No records could be geocoded.")
+
     return pd.DataFrame(records)
 
 
 def create_map(df):
     """
     Creates an interactive map using plotly.express with enhanced features.
+
+    Args:
+        df (pd.DataFrame): DataFrame containing physician data with Latitude and Longitude columns.
+
+    Returns:
+        plotly.graph_objects.Figure: The plotly map figure.
     """
     if df.empty:
         logger.warning("No data to display on the map.")
+        print("No data to display on the map.")
         return None
 
     fig = px.scatter_mapbox(
@@ -91,7 +130,7 @@ def create_map(df):
     fig.update_traces(marker=dict(size=12, symbol='circle', opacity=0.7))
 
     fig.update_layout(
-        mapbox_style="carto-positron",
+        mapbox_style="open-street-map",
         margin={"r": 0, "t": 0, "l": 0, "b": 0},
         hoverlabel=dict(
             bgcolor="white",

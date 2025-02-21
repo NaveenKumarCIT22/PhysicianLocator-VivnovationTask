@@ -1,4 +1,5 @@
 import json
+import chromadb.api.client as chroma_api_client
 from langchain.docstore.document import Document
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
@@ -8,7 +9,9 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from dotenv import load_dotenv
 import os
+import random
 from logger import setup_logger
+import chromadb  # Import chromadb
 
 load_dotenv()
 
@@ -101,9 +104,17 @@ def process_physician_jsons(json_list):
 
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2")
+
+    chroma_api_client.SharedSystemClient.clear_system_cache()
+
+    client = chromadb.EphemeralClient()
+
     vectorstore = Chroma.from_documents(
-        documents, embeddings, collection_name="physicians")
+        documents, embeddings, collection_name="physicians", client=client)
+
     logger.info(
+        f"Processed {len(documents)} physician JSON objects into LangChain Documents.")
+    print(
         f"Processed {len(documents)} physician JSON objects into LangChain Documents.")
     return vectorstore
 
@@ -119,6 +130,8 @@ def parse_retrievals(docs: list) -> str:
     result = "\n-----------------\n".join(doc.page_content for doc in docs)
     physician_groups.extend([doc.metadata for doc in docs])
     logger.info(f"Parsed {len(docs)} retrieved documents.")
+    print(f"Parsed {len(docs)} retrieved documents." +
+          random.choice(['+', '/', '*', '-']))
     return result
 
 
@@ -140,8 +153,7 @@ def retrieve_physician_groups(vectorstore, query_physician_name):
         """)
     ])
 
-    retriever = vectorstore.as_retriever(
-        search_type="similarity_score_threshold", search_kwargs={"k": 5, "score_threshold": 0.5})
+    retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
 
     chain = (
         {"physician_data": retriever | parse_retrievals,

@@ -34,6 +34,7 @@ def fetch_physicians(postal_code):
 
     if os.path.exists(filename):
         logger.info(f"Cache hit! Returning existing file: {filename}")
+        print(f"Cache hit! Returning existing file: {filename}")
         return [filename]
 
     url = f"https://npiregistry.cms.hhs.gov/api/?postal_code={postal_code}&version=2.1&limit=20"
@@ -44,14 +45,17 @@ def fetch_physicians(postal_code):
         all_physicians.extend(results)
     else:
         logger.error(f"Request failed with status code {response.status_code}")
+        print(f"Request failed with status code {response.status_code}")
         return []
 
     try:
         with open(filename, 'w') as f:
             json.dump(all_physicians, f)
             logger.info(f"Data written to file: {filename}")
+            print(f"Data written to file: {filename}")
     except Exception as e:
         logger.error(f"Error writing data to file: {e}")
+        print(f"Error writing data to file: {e}")
         return []
 
     return [filename]
@@ -66,11 +70,13 @@ def load_physicians(filenames):
         try:
             with open(filename, 'r') as f:
                 data = json.load(f)
-                all_physicians.extend(data)
+                all_physicians.extend(data[:5])  # Limit to 5 records for demo
         except (FileNotFoundError, json.JSONDecodeError, Exception) as e:
             logger.error(f"Error loading data from {filename}: {e}")
+            print(f"Error loading data from {filename}: {e}")
             continue
     logger.info(f"Loaded {len(all_physicians)} physicians")
+    print(f"Loaded {len(all_physicians)} physicians")
     return all_physicians
 
 
@@ -81,11 +87,13 @@ def get_local_physicians(msa):
     res = fetch_data(msa)
     zips = res['ZIP'].tolist()
     logger.info(f"Found {len(zips)} ZIP codes in {msa}")
+    print(f"Found {len(zips)} ZIP codes in {msa}")
     all_physicians = []
     filenames = []
     for postal_code in zips:
         postal_code = str(postal_code).zfill(5)
         logger.info(f"Fetching physicians for {postal_code}")
+        print(f"Fetching physicians for {postal_code}")
         files = fetch_physicians(postal_code)
         filenames.extend(files)
     all_physicians = load_physicians(filenames)
@@ -105,17 +113,17 @@ def get_all_msa():
 
 
 if __name__ == "__main__":
-    # Replace with actual MSA name or ID
     msa_name = "aguadilla"
     # msa_name = 21940
     res = fetch_data(msa_name)  # 21940, 14460
     zips = res['ZIP'].tolist()
     logger.info(f"Found {len(zips)} ZIP codes in {msa_name}")
+    print(f"Found {len(zips)} ZIP codes in {msa_name}")
     all_physicians = []
     filenames = []
     for postal_code in zips:
         postal_code = str(postal_code).zfill(5)
-        files = fetch_physicians(postal_code)  # Returns a list of filenames
+        files = fetch_physicians(postal_code)
         filenames.extend(files)
 
     all_physicians = load_physicians(filenames)

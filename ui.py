@@ -5,6 +5,7 @@ from load import get_local_physicians, get_all_msa
 import streamlit.components.v1 as components
 import streamlit as st
 from logger import setup_logger
+import time
 
 logger = setup_logger('ui_logger', 'ui.log')
 
@@ -14,6 +15,8 @@ def search_physicians(msa_name, msa_code, input_type):
     Search for physicians based on MSA Name or MSA Code.
     """
     logger.info(
+        f"Searching physicians with {input_type}: {msa_name if input_type == 'MSA Name' else msa_code}")
+    print(
         f"Searching physicians with {input_type}: {msa_name if input_type == 'MSA Name' else msa_code}")
     if input_type == "MSA Name":
         return get_local_physicians(msa_name)
@@ -35,6 +38,7 @@ def display_map(physician_map):
         components.html(map_html, height=600, width=1000, scrolling=True)
     except Exception as e:
         logger.error(f"Error displaying map: {e}")
+        print(f"Error displaying map: {e}")
         st.error(f"Error displaying map: {e}")
 
 
@@ -62,6 +66,7 @@ def main():
         "Enter MSA Code:") if input_type == "MSA Code" else None
 
     if st.button("Search"):
+        tt = time.time()
         json_data = search_physicians(msa_name, msa_code, input_type)
         person_groups, data_lst = get_groups(json_data[:30])
         data = extract_data_from_list(data_lst[:30])
@@ -72,10 +77,13 @@ def main():
                 display_person_groups(person_groups)
             else:
                 logger.error("Failed to create map.")
+                print("Failed to create map.")
                 st.error("Failed to create map.")
         else:
             logger.warning("No physician data to plot.")
+            print("No physician data to plot.")
             st.warning("No physician data to plot.")
+        print("== Time taken: ", time.time()-tt)
 
 
 if __name__ == "__main__":
