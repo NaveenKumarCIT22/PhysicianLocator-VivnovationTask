@@ -5,10 +5,12 @@ import json
 from datetime import datetime
 import os
 from logger import setup_logger
+import streamlit as st
 
 logger = setup_logger('load_logger', 'load.log')
 
 
+@st.cache_data
 def fetch_data(msa):
     """
     Fetch data from the database based on MSA name or code.
@@ -25,6 +27,7 @@ def fetch_data(msa):
     return res
 
 
+@st.cache_data
 def fetch_physicians(postal_code):
     """
     Fetch physician data from the API based on postal code.
@@ -61,6 +64,7 @@ def fetch_physicians(postal_code):
     return [filename]
 
 
+@st.cache_data
 def load_physicians(filenames):
     """
     Load physician data from JSON files.
@@ -100,6 +104,7 @@ def get_local_physicians(msa):
     return all_physicians
 
 
+@st.cache_data
 def get_all_msa():
     """
     Get all MSA names.
@@ -108,7 +113,7 @@ def get_all_msa():
         pandas.DataFrame: A DataFrame with one column, 'Addr', containing all MSA names.
     """
     conn = sqlite3.connect('.\\Datas\\msatozip.db')
-    res = pd.read_sql_query("SELECT Addr FROM data_table", conn)
+    res = pd.read_sql_query("SELECT DISTINCT(Addr) FROM data_table", conn)
     return res
 
 

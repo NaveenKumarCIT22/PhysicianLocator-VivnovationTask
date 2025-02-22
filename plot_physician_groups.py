@@ -115,6 +115,9 @@ def create_map(df):
         print("No data to display on the map.")
         return None
 
+    center_lat = df["Latitude"].mean()
+    center_lon = df["Longitude"].mean()
+
     fig = px.scatter_mapbox(
         df,
         lat="Latitude",
@@ -124,7 +127,8 @@ def create_map(df):
         color_discrete_sequence=["green"],
         zoom=10,
         height=600,
-        width=1000
+        width=1000,
+        center=dict(lat=center_lat, lon=center_lon)
     )
 
     fig.update_traces(marker=dict(size=12, symbol='circle', opacity=0.7))

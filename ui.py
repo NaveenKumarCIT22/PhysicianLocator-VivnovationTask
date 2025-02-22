@@ -10,6 +10,7 @@ import time
 logger = setup_logger('ui_logger', 'ui.log')
 
 
+@st.cache_data
 def search_physicians(msa_name, msa_code, input_type):
     """
     Search for physicians based on MSA Name or MSA Code.
@@ -25,6 +26,7 @@ def search_physicians(msa_name, msa_code, input_type):
     return None
 
 
+@st.cache_data
 def display_map(physician_map):
     """
     Display the physician map in Streamlit.
@@ -42,6 +44,7 @@ def display_map(physician_map):
         st.error(f"Error displaying map: {e}")
 
 
+@st.cache_data
 def display_person_groups(person_groups):
     """
     Display the person groups in Streamlit.
@@ -68,8 +71,8 @@ def main():
     if st.button("Search"):
         tt = time.time()
         json_data = search_physicians(msa_name, msa_code, input_type)
-        person_groups, data_lst = get_groups(json_data[:30])
-        data = extract_data_from_list(data_lst[:30])
+        person_groups, data_lst = get_groups(json_data[:20])
+        data = extract_data_from_list(data_lst[:20])
         if data is not None and not data.empty:
             physician_map = create_map(data)
             if physician_map:
